@@ -2,6 +2,10 @@ package com.mkincloud.learning.ws;
 
 import javax.jws.WebService;
 
+/*
+ * Basic calculator
+ */
+
 @WebService(endpointInterface = "com.mk.learning.ws.CalcEndPoint")
 public class CalcImpl implements CalcEndPoint {
 
